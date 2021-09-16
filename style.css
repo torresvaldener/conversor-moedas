@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+
+body {
+  background-color: #212529;
+  font-family: sans-serif;
+  color: #899095;
+  padding: 10px;
+  margin: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  margin: 5px;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+}
+
+button {
+  padding: 5px;
+}
+
+.btn-dolar:hover {
+  color: rgb(1, 226, 1);
+}
+
+.btn-euro:hover {
+  color: orange;
+}
+
+.btn-libra:hover {
+  color: blue;
+}
+
+h2 {
+  padding: 10px;
+  margin: 5px;
+}
+
+footer {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}

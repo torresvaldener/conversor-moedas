@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js"></script>
+  </head>
+  <header><h1>Conversor de Moedas</h1></header>
+  <body>
+    <div class="container">
+      <p>Insira o valor em Reais a ser convertido:</p>
+
+      <input type="number" id="valor" placeholder="R$" />
+      <p>Você deseja converter para:</p>
+      <button class="btn-dolar" type="submit" onclick="ConverterDolarReal()">
+        Dolar ($)
+      </button>
+      <button class="btn-euro" type="submit" onclick="ConverterEuroReal()">
+        Euro (€)
+      </button>
+      <button class="btn-libra" type="submit" onclick="ConverterLibraReal()">
+        Libra (£)
+      </button>
+      <h2 id="valorConvertido"></h2>
+      <footer>
+        <img src="/conversor-de-moeda/images/coins.png" alt="moedas" />
+      </footer>
+    </div>
+  </body>
+</html>
